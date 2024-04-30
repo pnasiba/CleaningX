@@ -1,12 +1,11 @@
 import "./style.scss";
 import { Container } from "@containers";
-import { Button } from "@ui";
 import logo from "@images/logo.svg";
 
 const index = () => {
   return (
     <>
-      <header className="fixed z-[9999999] w-full bg-white border-b-2 ">
+      <header className="fixed z-[9999999] w-full bg-white md:border-b-2 ">
         <Container>
           <nav className="flex justify-between h-[118px] items-center">
             <ul className="flex gap-[22px] items-center ">
@@ -25,7 +24,9 @@ const index = () => {
             <ul className="flex gap-[24px] items-center ">
               <li className="text-[#211F54] cursor-pointer">Cart (0)</li>
               <li>
-                <Button/>
+                <button className="pt-[16px] pb-[18px] px-[24px] rounded-[14px] bg-[#0075FF] text-white hover:bg-[#091098] duration-200">
+                  Get a free quote
+                </button>
               </li>
             </ul>
           </nav>
