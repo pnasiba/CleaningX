@@ -5,7 +5,7 @@ import logo from "@images/logo.svg";
 const index = () => {
   return (
     <>
-      <header className="fixed z-[9999999] w-full bg-white md:border-b-2 ">
+      <header className="fixed z-[9999999] w-full bg-white ">
         <Container>
           <nav className="flex justify-between h-[118px] items-center">
             <ul className="flex gap-[22px] items-center ">

@@ -3,9 +3,9 @@ import "./style.scss";
 
 const index = () => {
     return (
-      <footer className="bg-slate-900 text-white text-center h-[50px]">
-        <Container> 
-          Demo App {new Date().getFullYear()}
+      <footer className="bg-slate-900 text-white text-center py-5">
+        <Container>
+          <p>Demo App {new Date().getFullYear()}</p>
         </Container>
       </footer>
     );
