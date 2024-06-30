@@ -13,6 +13,7 @@ export default defineConfig({
       "@containers": path.resolve(__dirname, "./src/components/containers"),
       "@images": path.resolve(__dirname, "./src/assets/images"),
       "@ui": path.resolve(__dirname, "./src/components/UI"),
+      "@buttons": path.resolve(__dirname, "./src/components/UI/buttons"),
       "@ui-layout": path.resolve(__dirname, "./src/components/layouts"),
       "@layout": path.resolve(__dirname, "./src/layout"),
       "@pages": path.resolve(__dirname, "./src/pages"),
