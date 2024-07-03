@@ -198,7 +198,7 @@ const App = () => {
           </Container>
         </section>
 
-        <section>
+        <section className="mb-[130px]">
           <Container>
             <p className="pt-[147px] border-t border-[#DCDDEB]"></p>
 
@@ -259,6 +259,135 @@ const App = () => {
                     <img src={box} alt="box" />
                   </div>
                 </div>
+              </div>
+            </div>
+          </Container>
+        </section>
+
+        <section className="bg-[#F7F9FC] pt-[131px] pb-[111px]">
+          <Container>
+            <div className="flex justify-between gap-[60px] items-start ">
+              <div>
+                <h1 className="font-bold text-[48px] text-[#211F54] leading-[57.98px] mb-[32px] ">
+                  Contact Us
+                </h1>
+
+                <p className="w-[484.61px] text-[21px] leading-[30.01px] text-[#6E7191] mb-[32px] ">
+                  In dignissim euismod pretium amet enim a eu nam ut urna
+                  accumsan pellentesque lacus duis pharetra eutortor.
+                </p>
+
+                <div className="flex gap-[10px] items-center pb-[30px] border-b-[1px] border-[#DCDDEB] ">
+                  <img src={callImage} alt="call" />
+
+                  <div>
+                    <p className="uppercase leading-[18px] text-[#6E7191] mb-[4px] ">
+                      Call us now
+                    </p>
+                    <h4 className="text-[#211F54] font-bold leading-[36px] text-[28px] ">
+                      (414) 567 - 2109
+                    </h4>
+                  </div>
+                </div>
+
+                <h1 className="pt-[55px] mb-[9px] text-[#211F54] text-[28px] font-bold leading-[36.01px] ">
+                  Not convinced yet?
+                </h1>
+
+                <p className="text-[21px] leading-[30.01px] text-[#6E7191] w-[445.54px] mb-[30px] ">
+                  Massa bibendum consectetur maurisid gravida purus, dolor dui
+                  amet morbi non nunc urna purus diam.
+                </p>
+
+                <button className="shadow-md border-[#14142B] duration-200 bg-white hover:shadow-lg py-[25px] px-[39px] rounded-[14px] text-[18px] leading-[20px] font-bold text-[#211F54] ">
+                  Browse our service
+                </button>
+              </div>
+
+              <div className="rounded-[16px] bg-white px-[61px] py-[84px] w-[673px]">
+                <div className="flex gap-[33px] mb-[32px] ">
+                  <div>
+                    <p className="text-[18px] text-[#211F54] leading-[30.01px] ">
+                      Full name
+                    </p>
+                    <input
+                      type="text"
+                      className="box-border border border-gray-300 rounded-lg shadow-md bg-white py-[15px] px-2 w-[259px] outline-none cursor-pointer"
+                    />
+                  </div>
+
+                  <div>
+                    <p className="text-[18px] text-[#211F54] leading-[30.01px] ">
+                      Phone number
+                    </p>
+                    <input
+                      type="text"
+                      className="box-border border border-gray-300 rounded-lg shadow-md bg-white py-[15px] px-2 w-[259px] outline-none cursor-pointer"
+                    />
+                  </div>
+                </div>
+
+                <div className="flex gap-[33px] mb-[32px] ">
+                  <div>
+                    <p className="text-[18px] text-[#211F54] leading-[30.01px] ">
+                      Address
+                    </p>
+                    <input
+                      type="address"
+                      className="box-border border border-gray-300 rounded-lg shadow-md bg-white py-[15px] px-2 w-[259px] outline-none cursor-pointer"
+                    />
+                  </div>
+
+                  <div>
+                    <p className="text-[18px] text-[#211F54] leading-[30.01px] ">
+                      Email
+                    </p>
+                    <input
+                      type="email"
+                      className="box-border border border-gray-300 rounded-lg shadow-md bg-white py-[15px] px-2 w-[259px] outline-none cursor-pointer"
+                    />
+                  </div>
+                </div>
+
+                <div className="flex gap-[33px] mb-[32px] ">
+                  <div>
+                    <p className="text-[18px] text-[#211F54] leading-[30.01px] ">
+                      Requested service
+                    </p>
+                    <input
+                      type="text"
+                      className="box-border border border-gray-300 rounded-lg shadow-md bg-white py-[15px] px-2 w-[259px] outline-none cursor-pointer"
+                    />
+                  </div>
+
+                  <div>
+                    <p className="text-[18px] text-[#211F54] leading-[30.01px] ">
+                      Day of service
+                    </p>
+                    <input
+                      type="text"
+                      className="box-border border border-gray-300 rounded-lg shadow-md bg-white py-[15px] px-2 w-[259px] outline-none cursor-pointer"
+                    />
+                  </div>
+                </div>
+
+                <div className="mb-[42px]">
+                  <p className="text-[18px] text-[#211F54] leading-[30.01px] ">
+                    Add a note
+                  </p>
+
+                  <textarea
+                    className="box-border border border-gray-300 rounded-lg shadow-md bg-white p-2 outline-none cursor-pointer"
+                    name="text"
+                    id="text"
+                    cols="65"
+                    rows="5"
+                  ></textarea>
+                </div>
+
+                <button className="bg-[#0075FF] rounded-[14px] shadow-[#0075FF] duration-200 hover:shadow-lg py-[24px] px-[30px] text-[18px] leading-[20px] font-bold text-white ">
+                  Submit message
+                </button>
               </div>
             </div>
           </Container>
