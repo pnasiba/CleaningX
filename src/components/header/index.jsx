@@ -14,17 +14,41 @@ const index = () => {
                   <img src={logo} alt="logo" />
                 </a>
               </li>
-              <li className="cursor-pointer text-[#211F54]">Home</li>
-              <li className="cursor-pointer text-[#211F54]">About</li>
-              <li className="cursor-pointer text-[#211F54]">Services</li>
-              <li className="cursor-pointer text-[#211F54]">Articles</li>
-              <li className="cursor-pointer text-[#211F54]">Contact</li>
+              <li className="cursor-pointer duration-200">
+                <a href="#" className="text-[#211F54] hover:text-[#0075FF] text-[18px]">
+                  Home
+                </a>
+              </li>
+              <li className="cursor-pointer duration-200">
+                <a href="#" className="text-[#211F54] hover:text-[#0075FF] text-[18px]">
+                  About
+                </a>
+              </li>
+              <li className="cursor-pointer duration-200">
+                <a href="#" className="text-[#211F54] hover:text-[#0075FF] text-[18px]">
+                  Services
+                </a>
+              </li>
+              <li className="cursor-pointer duration-200">
+                <a href="#" className="text-[#211F54] hover:text-[#0075FF] text-[18px]">
+                  Articles
+                </a>
+              </li>
+              <li className="cursor-pointer duration-200">
+                <a href="#" className="text-[#211F54] hover:text-[#0075FF] text-[18px]">
+                  Contact
+                </a>
+              </li>
             </ul>
 
             <ul className="flex gap-[24px] items-center ">
-              <li className="text-[#211F54] cursor-pointer">Cart (0)</li>
+              <li className="duration-200 cursor-pointer">
+                <a href="#" className="text-[#211F54] hover:text-[#0075FF] text-[18px]">
+                  Cart (0)
+                </a>
+              </li>
               <li>
-                <button className="pt-[16px] pb-[18px] px-[24px] rounded-[14px] bg-[#0075FF] text-white hover:bg-[#091098] duration-200">
+                <button className="pt-[16px] pb-[18px] px-[24px] rounded-[14px] bg-[#0075FF] text-white hover:bg-[#211F54] duration-200">
                   Get a free quote
                 </button>
               </li>

@@ -100,7 +100,7 @@ const App = () => {
               </div>
             </div>
 
-            <div className="flex gap-[28px] text-center w-[450px] mx-auto">
+            <div className="flex gap-[28px] text-center w-[451px] mx-auto">
               <BlueButton />
               <WhiteButton />
             </div>
@@ -178,7 +178,9 @@ const App = () => {
                 </p>
 
                 <div className="flex gap-[28px] items-center ">
-                  <BlueButton />
+                  <button className="py-[26px] px-[38px] font-bold text-[18px] rounded-[14px] bg-[#0075FF] text-white hover:bg-white duration-200 hover:text-[#211F54] ">
+                    Get a free quote
+                  </button>
 
                   <div className="flex gap-[10px] items-center ">
                     <img src={callImage} alt="call" />
@@ -385,9 +387,77 @@ const App = () => {
                   ></textarea>
                 </div>
 
-                <button className="bg-[#0075FF] rounded-[14px] shadow-[#0075FF] duration-200 hover:shadow-lg py-[24px] px-[30px] text-[18px] leading-[20px] font-bold text-white ">
-                  Submit message
-                </button>
+                <BlueButton/>
+              </div>
+            </div>
+          </Container>
+        </section>
+
+        <section className="py-[140px]">
+          <Container>
+            <div className=" flex justify-between ">
+              <div>
+                <h3 className="w-[256px] mb-[7px] text-[28px] font-bold text-[#211F54] leading-[36.01px] ">
+                  Quality cleaning for your home
+                </h3>
+                <p className="w-[304px] text-[18px] leading-[30.01px] text-[#6E7191] ">
+                  Lorem ipsum dolor sit amet cteturdo adipiscing elit, sed do
+                  eiusmo.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-bold text-[20px] text-[#211F54] mb-[34px] ">
+                  Contact us
+                </h3>
+
+                <p className="mb-[12px] text-[18px] text-[#6E7191] w-[259px] ">
+                  1827 Nickel Road, Los Angeles, CA, 90017, United States
+                </p>
+                <p className="mb-[18px] text-[18px] text-[#6E7191]">
+                  (414) 567 - 2109
+                </p>
+                <p className=" text-[18px] text-[#6E7191]">
+                  contact@cleaning.com
+                </p>
+              </div>
+
+              <div>
+                <h3 className="mb-[28px] text-[#211F54] text-[20px] font-bold">
+                  Hours
+                </h3>
+                <h4 className="text-[18px] font-bold leading-[20px] text-[#211F54] mb-[8px] ">
+                  Monday to Friday
+                </h4>
+
+                <p className="text-[18px] text-[#6E7191] mb-[17px] leading-[30.01px] ">
+                  6:00 AM - 9:00 PM
+                </p>
+
+                <h4 className="text-[18px] font-bold leading-[20px] text-[#211F54] mb-[8px] ">
+                  Saturday & Sunday
+                </h4>
+
+                <p className="text-[18px] text-[#6E7191] mb-[17px] leading-[30.01px] ">
+                  8:00 AM - 8:00 PM
+                </p>
+              </div>
+
+              <div>
+                <h3 className="mb-[28px] text-[#211F54] text-[20px] font-bold">
+                  Get a free estimate
+                </h3>
+
+                <p className="text-[28px] text-[#0075FF] mb-[6px] leading-[36.01px] font-bold ">
+                  (414) 567 - 2109
+                </p>
+
+                <h4 className="text-[18px] leading-[30.01px] text-[#6E7191] mb-[18px] w-[294px] ">
+                  Lorem ipsum dolor sit amet ectetur adipiscing elit, sed do
+                  eiusmod.
+                </h4>
+
+                <BlueButton/>
               </div>
             </div>
           </Container>
